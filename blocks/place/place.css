@@ -1,0 +1,15 @@
+.place {
+  border: 1px solid green;
+  box-sizing: border-box;
+  max-width: 928px;
+  max-height: 640px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 48px;
+  column-gap: 32px;
+
+  margin-top: 80px;
+  margin-bottom: 0;
+
+}

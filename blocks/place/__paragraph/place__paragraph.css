@@ -1,0 +1,6 @@
+.place__paragraph {
+  border: 1px solid red;
+  max-width: 456px;
+  box-sizing: border-box;
+
+}

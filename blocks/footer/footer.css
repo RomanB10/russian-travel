@@ -1,0 +1,12 @@
+.footer {
+  border: 1px solid blue;
+  max-width: 928px;
+  max-height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 92px;
+  margin-bottom: 24px;
+
+}

@@ -1,0 +1,15 @@
+.footer__row-link {
+  border: 1px solid red;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+text-decoration: none;
+
+  color: #FFFFFF;
+
+  padding-right: 18px;
+  padding-left: 0;
+}

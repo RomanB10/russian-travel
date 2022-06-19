@@ -1,0 +1,22 @@
+.cover__subtitle {
+  border: 1px solid purple;
+
+  /*position: absolute;*/
+  max-width: 360px;
+  max-height: 66px;
+ /* left: 332px;
+  top: 6500px;
+*/
+margin: auto;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+text-align: center;
+
+color: #FFFFFF;
+}

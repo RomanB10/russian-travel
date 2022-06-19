@@ -1,0 +1,13 @@
+.intro__list {
+  border: 1px solid orange;
+  list-style-type: none;
+  padding: 0;
+
+max-width: 690px;
+max-height: 90px;
+
+
+
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+.header {
+  border: 1px solid red;
+  box-sizing: border-box;
+  max-width: 928px;
+  max-height: 52px;
+  margin: 33px auto 43px;
+  display: flex;
+  justify-content: space-between;
+}

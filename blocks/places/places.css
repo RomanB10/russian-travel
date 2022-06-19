@@ -1,0 +1,9 @@
+.places {
+  border: 1px solid blue;
+  box-sizing: border-box;
+  max-width: 928px;
+  max-height: 3292px;
+
+  margin-top: 6px;
+  margin-bottom: 0;
+}

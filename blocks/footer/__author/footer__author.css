@@ -1,18 +1,17 @@
 .footer__author {
-  border: 1px solid blue;
-  max-width: 186px;
-  max-height: 16px;
-;
-
-
   font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+ }
 
-text-align: right;
-
-color: #FFFFFF;
+ @media (max-width : 320px) {
+  .footer__author {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }

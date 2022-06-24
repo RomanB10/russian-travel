@@ -1,4 +1,9 @@
 .footer__row-links {
-  border: 1px solid blue;
-  display: inline-block;
+display: inline;
+}
+
+@media (max-width : 320px) {
+  .footer__row-links {
+
+    }
 }

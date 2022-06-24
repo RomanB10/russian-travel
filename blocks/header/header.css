@@ -1,9 +1,33 @@
 .header {
-  border: 1px solid red;
   box-sizing: border-box;
-  max-width: 928px;
-  max-height: 52px;
-  margin: 33px auto 43px;
+  max-width: 1184px;
+  min-height: 52px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
+
+@media (max-width : 1024px) {
+  .header {
+    max-width: 928px;
+    min-height: 52px;
+  }
+
+}
+
+@media (max-width : 768px) {
+  .header {
+    max-width: 720px;
+    min-height: 52px;
+  }
+}
+
+@media (max-width : 320px) {
+  .header {
+    max-width: 288px;
+    min-height: 42px;
+  }
+}
+
+
+

@@ -1,6 +1,25 @@
 .place__paragraph {
   border: 1px solid red;
-  max-width: 456px;
+  max-width: 484px;
+  width: 100%;
   box-sizing: border-box;
 
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    max-width: 456px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
+    max-width: 288px;
+  }
 }

@@ -1,7 +1,9 @@
 .place__website {
   border: 1px solid green;
   box-sizing: border-box;
-  max-width: 456px;
-
+  max-height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 
 }

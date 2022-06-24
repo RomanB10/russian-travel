@@ -1,0 +1,15 @@
+.intro__wrapper {
+  max-width: 690px;
+  min-height: 429px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .intro__wrapper {
+    max-width: 720px;
+    /*min-height: 754px;*/
+  }
+
+}

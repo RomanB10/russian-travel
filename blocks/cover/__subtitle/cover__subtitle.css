@@ -17,19 +17,19 @@
   cursor: pointer;
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .cover__subtitle {
     margin: 32px auto 195px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .cover__subtitle {
     margin: 32px auto 115px;
   }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
   .cover__subtitle {
     margin: 16px auto 0;
   }

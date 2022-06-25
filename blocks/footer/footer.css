@@ -16,20 +16,20 @@
 }
 
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .footer {
     max-width: 928px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .footer {
     max-width: 720px;
     margin: 88px auto 24px;
   }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
   .footer {
     max-width: 186px;
     min-height: 310px;

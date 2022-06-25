@@ -9,7 +9,7 @@
   padding-left: 18px;
 }
 
-  @media (max-width : 320px) {
+  @media (max-width: 320px) {
     .header__lang-second {
      font-size: 18px;
      line-height: 20px;

@@ -4,14 +4,14 @@
   margin-bottom: 12px;
 }
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .grid-wrapper {
     max-width: 928px;
     min-height: 942px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .grid-wrapper {
     max-width: 720px;
     min-height: 1664px;
@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width : 320px) {
+@media (max-width: 320px) {
   .grid-wrapper {
     max-width: 288px;
     min-height: 2724px;

@@ -5,19 +5,20 @@
 }
 
 @media (max-width: 1024px) {
-  .place__image {
+  .place__paragraph {
     max-width: 456px;
   }
 }
 
 @media (max-width: 768px) {
-  .place__image {
+  .place__paragraph {
     max-width: 352px;
   }
 }
 
 @media (max-width: 320px) {
-  .place__image {
+  .place__paragraph {
     max-width: 288px;
+    padding-left: 16px;
   }
 }

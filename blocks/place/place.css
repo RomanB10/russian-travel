@@ -1,6 +1,5 @@
 .place {
   box-sizing: border-box;
-  min-height: 660px;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -42,5 +41,6 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
             flex-direction: column;
+            margin-top: 50px;
   }
 }

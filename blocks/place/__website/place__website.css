@@ -13,3 +13,10 @@ display: flex;
 -ms-flex-pack: end;
   justify-content: end;
 }
+
+@media (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+    padding-left: 16px;
+  }
+}

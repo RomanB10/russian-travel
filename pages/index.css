@@ -5,7 +5,7 @@
 @import url(../blocks/root/__section/root__section.css);
 @import url(../blocks/root/__section/_margins/root__section_margins.css);
 @import url(../blocks/page/page.css);
-
+/* подключаемые стили головного раздела*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__langs/header__langs.css);
@@ -55,23 +55,3 @@
 @import url(../blocks/footer/__row-link/footer__row-link.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
-/*.normal {
-  border: 1 solid red;
-  font-family: 'Inter';
-  font-weight: 100;
-  color:green;
-}
-
-.bold {
-  border: 1 solid red;
-  font-family: 'Arial';
-  font-weight: 900;
-  font-size: italic;
-  color: red;
-}
-
-.page {
-  border: 1px solid green;
-  width: 300px;
-  height: 300px;
-}*/

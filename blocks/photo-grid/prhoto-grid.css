@@ -1,13 +1,11 @@
 .photo-grid {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
-
   list-style-type: none;
   padding: 0;
-
-
 }
 
 @media (max-width : 1024px) {
@@ -24,7 +22,6 @@
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
   }
-
 }
 
 @media (max-width : 320px) {

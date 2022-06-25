@@ -19,28 +19,19 @@
 
 @media (max-width : 1024px) {
   .cover__title{
-    /*transform: translate(0, 195px);*/
     margin: 195px auto 0;
-    /*top: 195px;
-    left: 232px;*/
   }
 }
 
 @media (max-width : 768px) {
   .cover__title {
-    /*transform: translate(0, 115px);*/
     margin: 115px auto 0;
-    /*top: 115px;
-    left: 104px;*/
   }
 }
 
 @media (max-width : 320px) {
   .cover__title {
-   /*transform: translate(0, 33px);*/
    margin: 33px auto 0;
-  /* top: 33px;
-   left: 16px;*/
    font-size: 32px;
    line-height: 35px;
   }

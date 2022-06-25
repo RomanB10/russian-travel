@@ -1,10 +1,17 @@
 .header {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 1184px;
   min-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 @media (max-width : 1024px) {

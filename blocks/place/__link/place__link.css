@@ -4,13 +4,21 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #FFFFFF;
 
+  -webkit-transition-property: opacity;
+
+  -o-transition-property: opacity;
+
   transition-property: opacity;
-  transition-duration: 0.8s;
-  transition-timing-function: linear;
+  -webkit-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+          transition-timing-function: linear;
 }
 
 .place__link:hover {

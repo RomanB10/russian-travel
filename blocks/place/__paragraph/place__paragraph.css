@@ -1,9 +1,7 @@
 .place__paragraph {
-  border: 1px solid red;
   max-width: 484px;
   width: 100%;
   box-sizing: border-box;
-
 }
 
 @media (max-width: 1024px) {

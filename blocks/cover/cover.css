@@ -1,4 +1,6 @@
 .cover {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   position: relative;
   max-width: 1184px;
   margin-top: 98px;
@@ -19,6 +21,14 @@
     max-width: 768px;
     min-height: 480px;
     margin-top: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    min-width: 320px;
+    min-height: 200px;
+    margin-top: 66px;
   }
 }
 

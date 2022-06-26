@@ -14,7 +14,17 @@
 
 @media (max-width: 720px) {
   .lead__title {
-    font-size: .7em;
+    font-size: 60px;
+    line-height: 64px;
+    min-height: 88px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
   }
 }
 
@@ -26,3 +36,4 @@
     line-height: 44px;
   }
 }
+

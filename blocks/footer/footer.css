@@ -1,4 +1,6 @@
 .footer {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   max-width: 1184px;
   max-height: 18px;
   display: -webkit-box;
@@ -29,6 +31,23 @@
     min-height: 18px;
     margin: 88px auto 0;
     padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    max-width: 186px;
+    min-height: 310px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 64px 0 0;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 

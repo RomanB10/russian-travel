@@ -6,13 +6,13 @@
   max-height: 1005px;
   font-size: 96px;
   line-height: 100px;
- }
+}
 
 @media (max-width: 1024px) {
   .lead {
     max-width: 928px;
     max-height: 962px;
-    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -21,7 +21,6 @@
     max-height: 862px;
   }
 }
-
 
 @media (max-width: 320px) {
   .lead {

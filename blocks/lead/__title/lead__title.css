@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 200px;
   margin: auto;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -30,12 +30,6 @@
 
 @media (max-width: 320px) {
   .lead__title {
-    max-width: 288px;
     min-height: 88px;
-    font-size: 40px;
-    line-height: 44px;
   }
 }
-
-
-

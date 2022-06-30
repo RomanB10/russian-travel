@@ -8,24 +8,21 @@
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: end;
   -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
   .header {
     max-width: 928px;
-    min-height: 52px;
   }
-
 }
 
 @media (max-width: 768px) {
   .header {
     max-width: 720px;
-    min-height: 52px;
   }
 }
 
@@ -35,9 +32,6 @@
     min-height: 42px;
     -webkit-box-align: center;
     -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
 }
-
-
-

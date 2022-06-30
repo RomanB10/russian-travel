@@ -2,7 +2,7 @@
   max-width: 690px;
   min-height: 58px;
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -17,5 +17,3 @@
     line-height: 35px;
   }
 }
-
-

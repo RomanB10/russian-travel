@@ -6,6 +6,7 @@
 * Стэк
 * Применяемые технологии
 * Статус выполнения проекта
+* Screenshot
 
 **Интро**
 * <p align="left"> Адаптивный одностраничный сайт о путешествии по России, созданный по макету графического редактора Figma<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="20" height="20"/> </a></p>
@@ -29,5 +30,9 @@
 **Статус выполнения проекта**
 * Планируется доработка
   - Реализовать переключение между языками Ru || En
+  
+**Screenshot**
+![image](https://user-images.githubusercontent.com/105459169/230073796-3a94dfc8-66be-433f-b8de-a3ba2ef1c86d.png)
+
 
 
